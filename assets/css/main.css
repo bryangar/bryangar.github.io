@@ -7,6 +7,88 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+#FLinkedIn {
+	font-size: 15px; 
+	color: white;
+
+}
+
+#BEducation {
+	bottom: 10px;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 100px;
+    width: 100%;
+    font-size: 18px;
+    padding: .5px;
+} 
+
+#BRecentWork {  
+	
+    bottom: 10px;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 120px;
+    width: 100%;
+    font-size: 18px;
+    padding: .5px;
+	
+}
+	
+#BEducation, #BRecentWork	{ 
+	position: Left;
+}
+
+#BComputingSkills,  #BProfessionalSkills { 
+	position: center;
+}
+
+#BProfessionalReferences { 
+	position: right;
+}
+
+#BProfessionalReferences {
+	max-width: 220px;
+	width: 100%;
+	bottom: 10px;
+    right: 18.5%;
+    left: 77.25%;
+    font-size: 18px;    
+    padding: .5px;
+}
+
+#BComputingSkills, #BProfessionalSkills {
+	max-width: 160px;
+	width: 100%;
+	bottom: 10px;
+    right: 18.5%;
+    left: 77.25%;
+    font-size: 18px;
+    padding: .5px;
+
+}
+/*Floating Back-To-Top Button*/
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 110px;
+    width: 100%;
+    font-size: 18px;
+	border-color: rgba(85, 85, 85, 0.2);
+	background-color: rgb(100,100,100);
+	padding: .5px;
+	border-radius: 4px;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
