@@ -694,7 +694,7 @@ h2#company {
 			}
 
 		.image.main {
-			display: block;
+			display: flex;
 			margin: 2.5rem 0;
 			width: 100%;
 		}
