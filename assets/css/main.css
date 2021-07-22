@@ -1291,7 +1291,7 @@ h2#company {
 			#header > :first-child:before {
 				display: none;
 			}
-
+/*
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
@@ -1299,6 +1299,7 @@ h2#company {
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
+*/
 
 			#header .logo .icon:before {
 				font-size: 2rem;
@@ -1347,6 +1348,7 @@ h2#company {
 			padding-left: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
+			margin-left: 51px;
 		}
 
 			#header nav ul li {
